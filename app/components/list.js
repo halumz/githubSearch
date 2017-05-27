@@ -8,7 +8,7 @@ export default function (searchList) {
     };
     const starURL = chrome.extension.getURL('img/black_star.png');
     const forkURL = chrome.extension.getURL('img/tuning_fork.png');
-    return (<div key={item.id} onClick={onClick}>
+    return (<div key={item.id} onClick={onClick} className={Styles.listbody}>
       <div className={Styles.singleBody}>
         <div className={Styles.divRepo1}>
           <div className={Styles.divWrapperA}>

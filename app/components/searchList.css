@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 55px;
+  height: 100%;
 }
 
 .errorP {
@@ -17,7 +17,7 @@
 }
 
 .divCount{
-  width: 480px;
+  width: 485px;
   padding: 1px;
   display: flex;
   flex-drection: row;
@@ -47,13 +47,18 @@
   padding: 5px;
   max-height: 90%;
 }
+.listbody {
+  overflow-y: scroll;
+}
 .singleBody {
-  width: 480px;
+  width: 485px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
   -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 6px;
   -moz-box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+  overflow-y: auto;
+  background: red;
 }
 .divRepo1{
     display: flex;
@@ -63,7 +68,7 @@
 }
 .divWrapperA {
   padding:5px 10px;
-  width: 380px;
+  width: 400px;
 }
 .aRepo {
   color: #6EAAFF;
@@ -78,7 +83,7 @@
 }
 .divWrapperStars {
   margin: 0px;
-  width: 100px;
+  width: 80px;
   padding: 0px;
   margin-top: -5px;
   margin-left: auto;
@@ -88,13 +93,13 @@
   margin: 1px;
   margin-left: auto;
   padding: 0;
-  justify-content: right;
+  justify-content: space-between;
   height: 25px;
 }
 .pStar {
   color: #000000;
   padding-left: 5px;
-  padding-right: 5px;
+  padding-right: 15px;
 }
 .imgStar {
   color: #6EAAFF;

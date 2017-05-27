@@ -1,5 +1,5 @@
 let windowId = 0;
-const CONTEXT_MENU_ID = 'example_context_menu';
+const CONTEXT_MENU_ID = 'github_search';
 
 function closeIfExist() {
   if (windowId > 0) {
@@ -14,8 +14,8 @@ function popWindow(type) {
     type: 'popup',
     left: 100,
     top: 100,
-    width: 800,
-    height: 475,
+    width: 500,
+    height: 500,
   };
   if (type === 'open') {
     options.url = 'window.html';
