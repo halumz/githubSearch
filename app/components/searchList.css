@@ -1,0 +1,105 @@
+.mainBoody {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+}
+
+.errorP {
+  align: center;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  line-height:35px;
+  margin:0 auto;
+}
+
+.divCount{
+  width: 480px;
+  padding: 1px;
+  display: flex;
+  flex-drection: row;
+  justify-content: center;
+}
+.pFound {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.pCount {
+  padding-left: 10px;
+  color: #f11010;
+  font-weight: bold;
+}
+
+.sort {
+  width: 250px;
+}
+.sortBy {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.listBody {
+  padding: 5px;
+  max-height: 90%;
+}
+.singleBody {
+  width: 480px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 6px;
+  -moz-box-shadow: rgba(0,0,0,0.8) 0 0 6px;
+}
+.divRepo1{
+    display: flex;
+    padding: 5px 0;
+    padding-bottom: 0px;
+    background: #f1f1f1;
+}
+.divWrapperA {
+  padding:5px 10px;
+  width: 380px;
+}
+.aRepo {
+  color: #6EAAFF;
+  font-weight: bold;
+}
+.pDesc {
+  font-size: 12px;
+  color: #000000;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.divWrapperStars {
+  margin: 0px;
+  width: 100px;
+  padding: 0px;
+  margin-top: -5px;
+  margin-left: auto;
+}
+.divStars {
+  display: flex;
+  margin: 1px;
+  margin-left: auto;
+  padding: 0;
+  justify-content: right;
+  height: 25px;
+}
+.pStar {
+  color: #000000;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.imgStar {
+  color: #6EAAFF;
+  padding-top: 5px;
+  width: 12px;
+  height: 12px;
+  margin-top: 14px;
+}

@@ -1,0 +1,28 @@
+{
+  "version": "0.0.0",
+  "name": "react-chrome-extension-example",
+  "manifest_version": 2,
+  "description": "Example for react-chrome-extension-boilerplate",
+  "browser_action": {
+    "default_title": "React Chrome Extension Example",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "web_accessible_resources": [
+    "inject.html",
+    "img/black_star.png",
+    "img/tuning_fork.png",
+    "css/select.css",
+    "css/pagination.css"
+  ],
+
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [ "contextMenus", "management", "tabs", "storage", "https://github.com/*", "https://api.github.com/*" ],
+  "content_security_policy": "default-src 'self'; script-src 'self' https://api.github.com; style-src * 'unsafe-inline'; connect-src  https://api.github.com; img-src 'self' data:;"
+}

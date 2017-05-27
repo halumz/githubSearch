@@ -1,0 +1,17 @@
+.containerStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputStyle {
+  width: 95%;
+  background: #fefefe;
+  margin: 10px;
+  font-size: 15pt;
+  float: left;
+  color: #000000;
+  padding-left: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

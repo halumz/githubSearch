@@ -1,0 +1,181 @@
+.rcPagination {
+  font-size: 12px;
+  font-family: 'Arial';
+  user-select: none;
+}
+.rcPagination-total-text {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+}
+.rcPagination:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.rcPagination-item {
+  cursor: pointer;
+  border-radius: 6px;
+  min-width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  list-style: none;
+  float: left;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  margin-right: 8px;
+}
+.rcPagination-item a {
+  text-decoration: none;
+  color: #666;
+}
+.rcPagination-item:hover {
+  border-color: #2db7f5;
+}
+.rcPagination-item:hover a {
+  color: #2db7f5;
+}
+.rcPagination-item-active {
+  background-color: #2db7f5;
+  border-color: #2db7f5;
+}
+.rcPagination-item-active a {
+  color: #fff;
+}
+.rcPagination-item-active:hover a {
+  color: #fff;
+}
+.rcPagination-jump-prev:after,
+.rcPagination-jump-next:after {
+  content: "•••";
+  display: block;
+  letter-spacing: 2px;
+  color: #ccc;
+  font-size: 12px;
+  margin-top: 1px;
+}
+.rcPagination-jump-prev:hover:after,
+.rcPagination-jump-next:hover:after {
+  color: #2db7f5;
+}
+.rcPagination-jump-prev:hover:after {
+  content: "«";
+}
+.rcPagination-jump-next:hover:after {
+  content: "»";
+}
+.rcPagination-prev,
+.rcPagination-jump-prev,
+.rcPagination-jump-next {
+  margin-right: 8px;
+}
+.rcPagination-prev,
+.rcPagination-next,
+.rcPagination-jump-prev,
+.rcPagination-jump-next {
+  cursor: pointer;
+  color: #666;
+  font-size: 10px;
+  border-radius: 6px;
+  list-style: none;
+  min-width: 28px;
+  height: 28px;
+  line-height: 28px;
+  float: left;
+  text-align: center;
+}
+.rcPagination-prev a:after {
+  content: "‹";
+  display: block;
+}
+.rcPagination-next a:after {
+  content: "›";
+  display: block;
+}
+.rcPagination-prev,
+.rcPagination-next {
+  border: 1px solid #d9d9d9;
+  font-size: 18px;
+}
+.rcPagination-prev a,
+.rcPagination-next a {
+  color: #666;
+}
+.rcPagination-prev a:after,
+.rcPagination-next a:after {
+  margin-top: -1px;
+}
+.rcPagination-disabled {
+  cursor: not-allowed;
+}
+.rcPagination-disabled a {
+  color: #ccc;
+}
+.rcPagination-options {
+  float: left;
+  margin-left: 15px;
+}
+.rcPagination-options-size-changer {
+  float: left;
+  width: 80px;
+}
+.rcPagination-options-quick-jumper {
+  float: left;
+  margin-left: 16px;
+  height: 28px;
+  line-height: 28px;
+}
+.rcPagination-options-quick-jumper input {
+  margin: 0 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  padding: 3px 12px;
+  width: 50px;
+  height: 28px;
+}
+.rcPagination-options-quick-jumper input:hover {
+  border-color: #2db7f5;
+}
+.rcPagination-simple .rcPagination-prev,
+.rcPagination-simple .rcPagination-next {
+  border: none;
+  height: 24px;
+  line-height: 24px;
+  margin: 0;
+  font-size: 18px;
+}
+.rcPagination-simple .rcPagination-simple-pager {
+  float: left;
+  margin-right: 8px;
+}
+.rcPagination-simple .rcPagination-simple-pager .rcPagination-slash {
+  margin: 0 10px;
+}
+.rcPagination-simple .rcPagination-simple-pager input {
+  margin: 0 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  padding: 5px 8px;
+  width: 30px;
+  min-height: 20px;
+}
+.rcPagination-simple .rcPagination-simple-pager input:hover {
+  border-color: #2db7f5;
+}
+@media only screen and (max-width: 1024px) {
+  .rcPagination-item-after-jump-prev,
+  .rcPagination-item-before-jump-next {
+    display: none;
+  }
+}
