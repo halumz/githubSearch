@@ -1,2 +1,3 @@
-This is a simple `chrome extension` for `github search`.
+This is a simple app to search public github repos. There are some options for sorting.
 
+It is a public project made by redux. with the help of `https://github.com/jhen0409/react-chrome-extension-boilerplate`.
