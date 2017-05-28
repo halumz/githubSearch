@@ -1,8 +1,8 @@
 {
-  "version": "0.0.0",
-  "name": "react-chrome-github-search",
+  "version": "0.0.1",
+  "name": "github-search",
   "manifest_version": 2,
-  "description": "This Extension ise used for Github Search",
+  "description": "Search your Github repo",
   "browser_action": {
     "default_title": "Github Search",
     "default_popup": "popup.html"

@@ -48,7 +48,8 @@
   max-height: 90%;
 }
 .listbody {
-  overflow-y: scroll;
+  overflow: auto;
+  max-height: 400px;
 }
 .singleBody {
   width: 485px;

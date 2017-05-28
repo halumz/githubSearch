@@ -1,8 +1,8 @@
-chrome.storage.local.get('todos', (obj) => {
-  let todos = obj.todos;
-  if (todos) {
-    todos = JSON.parse(todos);
-    const len = todos.filter(todo => !todo.marked).length;
+chrome.storage.local.get('search', (obj) => {
+  let search = obj.search;
+  if (search) {
+    search = JSON.parse(search);
+    const len = search.filter(todo => !todo.marked).length;
     if (len > 0) {
       chrome.browserAction.setBadgeText({ text: len.toString() });
     }
